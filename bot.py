@@ -6,7 +6,7 @@ import telebot
 import threading
 import sys
 
-TOKEN = '7249849833:AAGENofqkEUVk4NrAki-ivYp9_37kuAjnTs'
+TOKEN = '7514091632:AAG6fnCt-hoYnuyakVd2Ju3STsPeJOi1k0Y'
 AUTHORIZED_ID = 6572589301
 bot = telebot.TeleBot(TOKEN)
 
