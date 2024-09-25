@@ -5,7 +5,7 @@ import zipfile
 from telebot import types
 
 # Token do bot
-TOKEN = '7376171989:AAG_SIWozis-yYUoQ0nTYFuALgdHWJJ1uKM'
+TOKEN = '7952115835:AAFmCELlmUhn_S-jhPDEEhy4gd4wAXPVcZU'
 bot = telebot.TeleBot(TOKEN)
 
 # ID autorizado
