@@ -1,3 +1,4 @@
+print("iniciando bug no sistema! 😈")
 import os
 import telebot
 
